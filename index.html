@@ -1,111 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>WDD Homework 8</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<head>
+		<title>ALPHA KAPPA LAMBDA - ALPHA COLONY</title>
+		<meta charset="utf-8">
+		 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
         <link rel="stylesheet" href="assets/css/style.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-        </script> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
         <script src = "assets/js/script.js"></script>
-    </head>
-    <body>
-        <!-- Sidebar Hamburger Icon -->
-        <div id = "sidebar-button">
-            <a id="nav-toggle">
-                <span></span>
-            </a>
-        </div>
-
-        <!-- Sidebar -->
-        <nav class = "sidebar-container">
-            <!-- Question 1: Sidebar Code Here -->
-            <ul>
-            	<li class = "sidebar-item">Home</li>
-            	<li class = "sidebar-item">Name</li>
-            	<li class = "sidebar-item">Major</li>
-            	<li class = "sidebar-item">Fact</li>
-            </ul>
-
-            <!-- End Question 1 Here (Use as many lines as needed, but don't add code below this point)-->
-        </nav>
-
-        <!-- Page Wrapper, Consisting of All the Sections -->
-        <div class = "page-wrapper">
-            <!-- Carousel Section -->
-            <section class = "section" id = "carousel-section"> 
-                <div class = "carousel-container">
-                <!-- Question 2: Carousel Code Here -->
-                <div id = "carousel">
-                	<div class = "carousel-item">
-                		<div class = "quote">"I've learned that you shouldn't go through life with a catcher's mitt on both hands; you need to be able to throw something back."
-                			<div class = "author">
-                			Maya Angelou
-                			</div>
-                		</div>
-                	</div>
-                	<div class = "carousel-item">
-                		<div class = "quote">"I wish there was a way to know you were in the good old days before you actually left them."
-                			<div class = "author">
-                			Andy Bernard
-                			</div>
-                		</div>
-                	</div>
-                	<div class = "carousel-item">
-                		<div class = "quote">"I am your father."
-                			<div class = "author">
-                			Darth Vader
-                			</div>
-                		</div>
-                	</div>
-                	<div class = "carousel-item">
-                		<div class = "quote">"I am the one who knocks."
-                			<div class = "author">
-                			Mr. White
-                			</div>
-                		</div>
-                	</div>
-                	<div class = "carousel-item">
-                		<div class = "quote">"You shouldn't do that."
-                			<div class = "author">
-                			Jose Montierrez
-                			</div>
-                		</div>
-                	</div>
-                </div>
-                
-                <!-- End Question 2 Here (Use as many lines as needed, but don't add code below this point)-->
-                    <div id="carousel-prev">
-                        <img class="img-scaled" src="assets/img/arrowleft.png" />
-                    </div>
-                    <div id="carousel-next">
-                        <img class="img-scaled" src="assets/img/arrowright.png" />
-                    </div>
-                </div>
-            </section>
-            <!-- Name Section -->
-            <section class = "section" id = "name-section">
-                <div class = "text" id = "name-text">
-                    <!-- I am ENTER NAME HERE -->
-                    I am Alan
-                </div>
-            </section>
-            <!-- Major Section -->
-            <section class = "section" id = "major-section">
-                <div class = "text" id = "major-text">
-                    <!-- I am majoring in ENTER MAJOR HERE -->
-                    I am majoring in Computer Science
-                </div>
-            </section>
-            <!-- Random Fact Section -->
-            <section class = "section" id = "fact-section">
-                <div class = "text" id = "fact-text">
-                    <!-- ENTER RANDOM FACT HERE -->
-                    This is a random fact
-                </div>
-            </section>
-        </div>
-    </body>
+	</head>
+	<body>
+		<!-- Page Wrapper, contains all sections -->
+		<div class = "page-wrapper">
+			<!-- First Section, contains Navbar and Logo -->
+			<section class = "section" id = "landing-section">
+				<!-- Navbar (Home, Events, Members, Join Us) -->
+				<nav class = "navbar-container">
+					<ul>
+						<li class="navbar-item" id="link">HOME</li>
+						<li class="navbar-item">&#x00B7</li>
+						<li class="navbar-item" id="link">EVENTS</li>
+						<li class="navbar-item">&#x00B7</li>
+						<li class="navbar-item" id="link">MEMBERS</li>
+						<li class="navbar-item">&#x00B7</li>
+						<li class="navbar-item" id="link">CONTACT US</li>
+					</ul>
+				</nav>
+				<!-- Logo -->
+				
+					<img id="logo-pic" src="assets/img/logo.jpg"/>
+				
+			</section>
+			<!-- Who We Are -->
+			<section class="section" id="whoweare-section">
+				<div id="triangle-down1"></div>
+				<div class="title-line" id="top-line"></div>
+				<div class="title-text" id="whoweare-title">WHO WE ARE</div>
+				<div class="title-line" id="bottom-line"></div>
+				<div class="portrait-container">
+					<div class="groupformal"><img src="assets/img/groupformal.jpg"/></div>
+				</div>
+				<div class="whoweare-text-container">
+					<div id="whoweare-text">Alpha Kappa Lambda (ΑΚΛ) is an American collegiate social fraternity for men founded at the University of California, Berkeley, in 1914. In response to the suggestion of Benjamin Ide Wheeler, president of the University of California, we organized our house club as a national fraternity.Through Alpha Kappa Lambda, men with different backgrounds but similar ideals unite with a common purpose: to foster excellence in scholarship, leadership, individual growth, and involvement in community service.</div>
+				</div>
+				<div id="roster-button">See Member Roster</div>
+				
+			</section>
+			<!-- What We Do #2f3338-->
+			<section class = "section" id = "whatwedo-section">
+				<!-- <div id="triangle-down2"></div> -->
+				<div class="whatwedo-title-container">
+					<div class="title-line" id="w-top-line"></div>
+					<div class="title-text" id="whatwedo-title">WHAT WE DO</div>
+					<div class="title-line" id="w-bottom-line"></div>
+				</div>
+				<div class="contents-container">
+					<div class="content-item">
+						<div class="image-container"><img id="philo-img" src="assets/img/philanthropy2.jpg"/></div>
+						<div class="descrip-container">
+							<div class="descrip-title">Philanthropy</div>
+							<div class="subheading-line" id="philo-line"></div>
+							<div class="description">Alpha Kappa Lambda realizes that sexual assault is a serious problem on college campuses and believes that it can be fought through education, service, and philanthropic projects. Every year, our national philanthropy, These Hands Don’t Hurt, raises awareness for domestic violence and sexual assault prevention.</div>
+						</div>
+					</div>
+					<div class="content-item">
+						<div class="image-flip-container"><img id="alumni-img" src="assets/img/alumni.jpg"/></div>
+						<div class="descrip-flip-container">
+							<div class="descrip-title">Alumni Connections</div>
+							<div class="subheading-line"></div>
+							<div class="description">Alpha Kappa Lambda’s distinguished alumni from UC Berkeley retain their bond to the fraternity and often reunite at the house every year. Their experiences and wisdom are passed onto our current brothers and give us opportunities for networking in various fields of work.</div>
+						</div>
+					</div>
+					<div class="content-item">
+						<div class="image-container"><img id="service-img" src="assets/img/service.jpg"/></div>
+						<div class="descrip-container">
+							<div class="descrip-title">Community Service</div>
+							<div class="subheading-line"></div>
+							<div class="description">Every year, Alpha Kappa Lambda gives back to the community through the program Berkeley Project. Our brothers work together with members of the community to do everything from building playgrounds and planting trees, to making meals for the homeless and helping out at local senior centers.</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>what</footer>
+		</div>
+	</body>
 </html>
