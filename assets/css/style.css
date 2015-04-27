@@ -38,7 +38,7 @@ body, html {
 #whatwedo-section {
 	/*background-color: #f0f0f0;*/
 	background-color: white;
-	height: 1500px;
+	height: 1400px;
 }
 
 /* Getting rid of ul styles */
@@ -86,11 +86,8 @@ img#logo-pic{
 	color: black;
 	font-family: Charter;
 	font-weight: 700;
-	left: 50%;
-	
+	left: 50%;	
 }
-
-
 
 #triangle-down1 {
 	width: 0;
@@ -192,6 +189,10 @@ img#logo-pic{
 	font-size: 18px;
 	text-align: center;
 	line-height: 2em;
+}
+
+a {
+	text-decoration: none;
 }
 
 #roster-button {
@@ -307,7 +308,32 @@ img#logo-pic{
 footer {
 	background-color: black;
 	float: left;
-	height: 200px;
+	height: 60px;
 	width: 100%;
 	box-shadow: 5px 5px 10px #202020;
+}
+
+.footer-text {
+	text-align: center;
+	padding: 25px;
+	color: white;
+	font-family: Lato;
+}
+
+#fb-img {
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+}
+
+#twitter-img {
+	position: absolute;
+	left: 40%;
+	bottom: 10px;
+}
+
+#ig-img {
+	position: absolute;
+	left: 60%;
+	bottom: 10px;
 }
