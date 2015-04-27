@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $('#logo-pic').fadeIn(4000);
+    $('#logo-pic').hide().fadeIn(5000);
 
-    $('#logo-pic').click(function() {
-      
-
+    $('#backtotop').click(function() {
+    	$('html, body').animate({scrollTop:0}, 'slow');
+    	return false;
     });
 });

@@ -205,5 +205,13 @@ button:active {
   border: none;
 }
 
+.navbar-item a {
+	text-decoration: none;
+	color: white;
+	background-color: none;
+}
 
+#link:hover {
+	text-decoration: underline;
+}
 
