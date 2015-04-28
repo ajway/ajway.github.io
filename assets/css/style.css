@@ -236,7 +236,7 @@ a {
 .content-item {
 	position: relative;
 	height: 400px;
-	margin: 20px
+	margin: 20px;
 }
 
 .contents-container:hover > .content-item {

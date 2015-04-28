@@ -193,6 +193,16 @@ body, html {
 	bottom: 55px;
 }
 
+#loc6-text {
+	position: absolute;
+	font-family: Charter;
+	font-weight: 400;
+	text-align: center;
+	margin-left: 18px;
+	font-size: 20px;
+	bottom: 55px;
+}
+
 #time-text {
 	position: absolute;
 	font-family: Charter;
@@ -254,6 +264,27 @@ body, html {
 
 #event1 {
 	margin-top: -150px;
+	margin-left: -50px;
+	opacity: 0.5;
+	z-index: 10;
+}
+
+#event2 {
+	margin-top: -75px;
+	margin-left: -50px;
+	opacity: 0.5;
+	z-index: 10;
+}
+
+#event3 {
+	margin-top: -50px;
+	margin-left: -50px;
+	opacity: 0.5;
+	z-index: 10;
+}
+
+#event6 {
+	margin-top: -140px;
 	margin-left: -50px;
 	opacity: 0.5;
 	z-index: 10;
