@@ -1,0 +1,289 @@
+/* Document set up */
+body, html {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+.page-wrapper {
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+.section {
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+
+#navbar-section{
+	height: 60px;
+}
+
+#title-section {
+	height: 140px;
+}
+
+#events-section {
+	height: 1050px;
+}
+
+.top-bar {
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	position: absolute;
+}
+
+#logo {
+	margin-top: 5px;
+}
+
+.navbar-container ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 10px;
+}
+
+.navbar-container {
+	top: 0;
+	right: 0;
+	position: absolute;
+	width: 390px;
+	height: 60px;
+	background-color: black;
+	z-index: 10;
+}
+
+.navbar-item {
+	font-weight: 700;
+	font-size: 16px;
+	color: white;
+	float: left;
+	padding: 10px 5px 10px 5px;
+	font-family: Charter;
+}
+
+#link {
+	cursor: pointer;
+}
+
+#link:hover {
+	text-decoration: underline;
+}
+
+.navbar-item a {
+	text-decoration: none;
+	color: white;
+	background-color: none;
+}
+
+#heading {
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: -287px;
+}
+
+.contents-container{
+	position: relative;
+	height: 80%;
+	width: 80%;
+	left: 10%;
+	background-color: white;
+}
+
+.content-item {
+	position: relative;
+	height: 150px;
+	margin: 20px;
+	background-color: grey;
+	border-radius: 5px;
+	z-index: 0;
+	/*border: 1px solid black;*/
+}
+
+.date {
+	width: 150px;
+	height: 100%;
+	position: absolute;
+	background-color: #d5d5d5;
+	left: 0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	/*border-right: 1px solid black;*/
+}
+
+.month-date {
+	text-align: center;
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 35px;
+	margin-top: 10px;
+	color: #545454;
+}
+
+.day-date {
+	margin-top: -10px;
+	text-align: center;
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 80px;
+}
+
+.top-layer, .bottom-layer, .buffer-layer {
+	position: absolute;
+	width: 100%;
+	height: 150px;
+}
+
+.top-layer {
+	z-index: 5;
+}
+
+.buffer-layer {
+	z-index: 3;
+	background-color: #A8A8A8;
+}
+
+.bottom-layer {
+	z-index: 1;
+}
+
+.overlay-item {
+	float: left;
+}
+
+#loc-icon {
+	position: absolute;
+	left: 10%;
+	margin-left: -20px;
+	margin-top: 8px;
+}
+
+#time-icon {
+	position: absolute;
+	left: 30%;
+	margin-left: -20px;
+	margin-top: 7px;
+}
+
+#info-icon {
+	position: absolute;
+	left: 70%;
+	margin-left: -30px;
+	margin-top: 2px;
+}
+
+#loc-text {
+	position: absolute;
+	font-family: Charter;
+	font-weight: 400;
+	text-align: center;
+	margin-left: 23px;
+	font-size: 25px;
+	bottom: 55px;
+}
+
+#time-text {
+	position: absolute;
+	font-family: Charter;
+	font-weight: 400;
+	text-align: center;
+	margin-left: 28px;
+	font-size: 25px;
+	bottom: 55px;
+}
+
+#info-text {
+	position: absolute;
+	font-family: Charter;
+	font-weight: 400;
+	text-align: center;
+	font-size: 14px;
+	bottom: 10px;
+}
+
+
+#event-location {
+	width: calc(20% - 2px);
+	height: calc(100% - 2px);
+	background-color: white;
+	border-left: 1px solid #c4c4c4;
+	border-right: 1px solid #c4c4c4;
+	border-top: 1px solid #c4c4c4;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+#event-time {
+	width: calc(20% - 1px);
+	height: calc(100% - 2px);
+	background-color: white;
+	border-right: 1px solid #c4c4c4;
+	border-top: 1px solid #c4c4c4;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+#event-description {
+	width: calc(60% - 1px);
+	height: calc(100% - 2px);
+	background-color: white;
+	border-right: 1px solid #c4c4c4;
+	border-top: 1px solid #c4c4c4;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.image-container {
+	position: absolute;
+	right: 0;
+	width: calc(100% - 150px);
+	height: 150px;
+	background-color: #A8A8A8;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	overflow: hidden;
+}
+
+#event1 {
+	margin-top: -150px;
+	margin-left: -50px;
+	opacity: 0.5;
+	z-index: 10;
+}
+
+.event-name {
+	display: block;
+	position: absolute;
+	font-family: Lato;
+	font-weight: 700;
+	color: white;
+	font-size: 45px;
+	top: 30%;
+	width: 80%;
+	left: 10%;
+	text-shadow: 2px 1px 4px black;
+	z-index: 999;
+}
+
+footer {
+	background-color: black;
+	float: left;
+	height: 60px;
+	width: 100%;
+	box-shadow: 5px 5px 10px #202020;
+}
+
+.footer-text {
+	text-align: center;
+	padding: 25px;
+	color: white;
+	font-family: Lato;
+}

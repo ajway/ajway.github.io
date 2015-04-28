@@ -1,5 +1,3 @@
-// external js: isotope.pkgd.js
-
 $( document ).ready( function() {
   // init Isotope
   var $container = $('.roster-container').isotope({
